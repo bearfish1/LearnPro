@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		B26BD85B26186C4F00A0307D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B26BD85A26186C4F00A0307D /* main.cpp */; };
+		B26BD86A2618713B00A0307D /* merge_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B26BD8692618713B00A0307D /* merge_sort.cpp */; };
+		B26BD86D2618724100A0307D /* quick_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B26BD86C2618724100A0307D /* quick_sort.cpp */; };
+		B26BD870261872B500A0307D /* heap_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B26BD86F261872B500A0307D /* heap_sort.cpp */; };
+		B26BD8742618747A00A0307D /* reverse_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B26BD8732618747A00A0307D /* reverse_list.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		B26BD85726186C4F00A0307D /* LearnProGit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearnProGit; sourceTree = BUILT_PRODUCTS_DIR; };
 		B26BD85A26186C4F00A0307D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B26BD8692618713B00A0307D /* merge_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = merge_sort.cpp; sourceTree = "<group>"; };
+		B26BD86C2618724100A0307D /* quick_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quick_sort.cpp; sourceTree = "<group>"; };
+		B26BD86F261872B500A0307D /* heap_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = heap_sort.cpp; sourceTree = "<group>"; };
+		B26BD8732618747A00A0307D /* reverse_list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reverse_list.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +49,7 @@
 		B26BD84E26186C4F00A0307D = {
 			isa = PBXGroup;
 			children = (
+				B26BD8672618703E00A0307D /* 算法 */,
 				B26BD85926186C4F00A0307D /* LearnProGit */,
 				B26BD85826186C4F00A0307D /* Products */,
 			);
@@ -60,6 +69,33 @@
 				B26BD85A26186C4F00A0307D /* main.cpp */,
 			);
 			path = LearnProGit;
+			sourceTree = "<group>";
+		};
+		B26BD8672618703E00A0307D /* 算法 */ = {
+			isa = PBXGroup;
+			children = (
+				B26BD8722618740F00A0307D /* 链表 */,
+				B26BD8682618704800A0307D /* 排序 */,
+			);
+			path = "算法";
+			sourceTree = "<group>";
+		};
+		B26BD8682618704800A0307D /* 排序 */ = {
+			isa = PBXGroup;
+			children = (
+				B26BD8692618713B00A0307D /* merge_sort.cpp */,
+				B26BD86C2618724100A0307D /* quick_sort.cpp */,
+				B26BD86F261872B500A0307D /* heap_sort.cpp */,
+			);
+			path = "排序";
+			sourceTree = "<group>";
+		};
+		B26BD8722618740F00A0307D /* 链表 */ = {
+			isa = PBXGroup;
+			children = (
+				B26BD8732618747A00A0307D /* reverse_list.cpp */,
+			);
+			path = "链表";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B26BD86D2618724100A0307D /* quick_sort.cpp in Sources */,
+				B26BD8742618747A00A0307D /* reverse_list.cpp in Sources */,
+				B26BD86A2618713B00A0307D /* merge_sort.cpp in Sources */,
 				B26BD85B26186C4F00A0307D /* main.cpp in Sources */,
+				B26BD870261872B500A0307D /* heap_sort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
